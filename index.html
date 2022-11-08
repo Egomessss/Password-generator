@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Password generator</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="info">
+            <h1>Generate a </h1>
+            <h2>random password</h2>
+            <h3>Never use an insecure password again</h3>
+            <button onclick="generatePw()">Generate password</button>
+            <button onclick="resetboxes()">Reset</button>
+        </div>
+
+        <div id="inputs">
+            <label for="pwlength-el">Password length(5-30)</label>
+            <input type="number" id="pwlength-el" min="5" max="30" value="10">
+        </div>
+
+        <div id="generatedpw">
+            <p id="generatedpasswordone-el"></p>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
