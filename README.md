@@ -26,4 +26,5 @@
 - A input that allows the user to choose the password length, in this case 5 trought 30.
 - A button to reset the password generator textbox.
 
-
+<h2>My biggests difficulties and how I overcame them</h2>
+- The biggest issue I had with this project was to get the functionaly of adding a copy button, which isn't even commited yet because I am still working on it, so that the user can copy the password that is generated.

@@ -101,12 +101,6 @@ let generatedPasswordTwoEl = document.getElementById("generatedpasswordtwo-el");
 
 let passwordLength = getValue();
 
-// Gerar duas password
-// cada passe tem de ter 15 caracters
-// forma de conseguir buscar 10 characters para a password
-// duplicar a funcao
-// nao deixar que as palavras passes acumulum !!limite dois sets de palavras passes
-
 
 let includeSimbolsEl = documents.getElementById("includesimbols-el")
 let includeUpperCaseEl= documents.getElementById("includeuppercase-el")
@@ -141,15 +135,3 @@ function getValue() {
   return pwLengthEl - 1;
 }
 }
-
-// ! add copy button
-// copy on click
-// function copyOne() {
-//   let copyText = document.getElementById("generatedPasswordOneEl").value;
-//   console.log(generatedPasswordOneEl);
-//   navigator.clipboard.writeText("copyText");
-// }
-
-// function copyTwo() {
-//   let copyTextTwo = document.getElementById("copyTwo()");
-// }
